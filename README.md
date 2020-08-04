@@ -8,3 +8,25 @@ If you'd like to learn something interesting, please have a look at:
 
 - [http://findthat.at/jamstack/ex3](http://findthat.at/jamstack/ex3)
   - [https://github.com/philhawksworth/fcc-3-build-with-ssg](https://github.com/philhawksworth/fcc-3-build-with-ssg)
+
+## Local development
+
+To work on this example locally, you can clone the repository and start editing, although there are a few pre-requisites:
+
+- [NodeJS and NPM](https://nodejs.org/)
+- A free [Netlify account](https://www.netlify.com)
+
+```bash
+# clone the repo
+git clone https://github.com/spereverde/eleventy-test
+
+# move into the working directory and install dependencies
+cd eleventy-test
+npm install
+
+# build and start the local development server
+npm start
+
+# just run the build
+npm run build
+```
