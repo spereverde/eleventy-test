@@ -15,10 +15,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "npm-check-updates": "^11.1.10",
-    "pug": "3.0.2"
-  },
-  "devDependencies": {
     "@11ty/eleventy": "^1.0.0-canary.10"
   }
 }
