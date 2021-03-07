@@ -8,9 +8,17 @@
     "start": "eleventy --serve"
   },
   "keywords": [],
-  "author": "",
+  "author": "spereverde",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spereverde/eleventy-test.git"
+  },
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "npm-check-updates": "^11.1.10",
+    "pug": "3.0.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0-canary.10"
   }
 }
